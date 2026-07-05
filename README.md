@@ -1,6 +1,6 @@
-# telegram-assistant
+# Telegram assistant bot
 
-A personal Telegram auto-responder that covers your messages while you're away. Built with Telethon and the Anthropic API. It reads incoming DMs and group mentions, replies briefly in a tone you configure, and gives you a private control panel in your own Saved Messages.
+A personal Telegram auto responder that covers your messages while you're away. Built with Telethon and the Anthropic API. It reads incoming DMs and group mentions, replies briefly in a tone you configure, and gives you a private control panel in your own Saved Messages.
 
 ## What it does
 
@@ -21,11 +21,3 @@ Send to your own Saved Messages: /on /off /info /note <text> /notes /block <name
 3. Set MY_ID in bot.py to your Telegram user ID
 4. Edit SYSTEM_PROMPT in bot.py with your own details
 5. set -a; source .env; set +a  then  python bot.py
-
-## Never commit
-
-.env, *.session, bot_context.json
-
-## Tech
-
-Python, Telethon, Anthropic API.
