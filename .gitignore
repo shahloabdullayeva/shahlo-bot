@@ -1,0 +1,14 @@
+# secrets — never commit
+.env
+*.session
+*.session-journal
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# editor leftovers
+*.save
+bot_context.json
